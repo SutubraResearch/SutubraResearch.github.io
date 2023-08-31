@@ -8,6 +8,8 @@ work:
         image: /images/panes.png # optionally, include the file path for an image for each item
       - item: Temoa.html
         image: /images/img3.png
+  - category:
+    items:
       - item: LDES.html
         image: /images/battery.png
       - item: Temoa-Canada.html
@@ -18,6 +20,8 @@ work:
         image: /images/resource3.png
       - item: ACES-Model.html
         image: /images/aces.png
+  - category:
+    items:
       - item: portfolio-optimization.html
         image: /images/img5.png
       - item: asset-evaluation.html

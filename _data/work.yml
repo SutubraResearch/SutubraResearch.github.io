@@ -6,13 +6,13 @@ work:
     items:
       - item: MIP.html
         image: /images/img3.png # optionally, include the file path for an image for each item
-      - item: example.html
-        image: /images/NYC2.jpg
-      - item: example2.html
+      - item: Temoa.html
+        image: /images/Temoa_logo_color_small.png
+      - item: LDES.html
         image: /images/NYC3.jpg
       - item: example3.html
         image: /images/NYC4.jpg
-  - category: Previous (selected)
+  - category: Completed (selected)
     items:
       - item: example.html
         image: /images/LA1.jpg

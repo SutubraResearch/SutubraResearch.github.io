@@ -4,8 +4,8 @@
 work:
   - category: New York City
     items:
-      - item: MIP.html
-        image: /images/img3.png  # optionally, include the file path for an image for each item
+      - item: example.html
+        image: /images/NYC1.jpg # optionally, include the file path for an image for each item
       - item: example.html
         image: /images/NYC2.jpg
       - item: example2.html
@@ -28,21 +28,21 @@ work:
 #     items:
 #       - item: MIP.html
 #       - image: /images/img3.png  # optionally, include the file path for an image for each item
-#       - item: MIP.html
-#         image: /images/img3.png  # optionally, include the file path for an image for each item
-#       - item: Temoa.html
-#         image: /images/Temoa_logo_color_small.png
-#       - item: LDES.html
-#         image: /images/battery.png
-#       - item: Temoa-Canada.html
-#         image: /images/temoa-canada.jpg
-#    - category: past work
-#      items:
-#        - item: resource-characterization.html
-#          image: /images/wind-resource.png
-#        - item: ACES-Model.html
-#          image: /images/aces.png
-#        - item: portfolio-optimization.html
-#          image: /images/img5.png
-#        - item: asset-evaluation.html
-#          image: /images/tx2.png
+   #    - item: MIP.html
+   #      image: /images/img3.png  # optionally, include the file path for an image for each item
+   #    - item: Temoa.html
+   #      image: /images/Temoa_logo_color_small.png
+   #    - item: LDES.html
+   #      image: /images/battery.png
+   #    - item: Temoa-Canada.html
+   #      image: /images/temoa-canada.jpg
+   # - category: past work
+   #   items:
+   #     - item: resource-characterization.html
+   #       image: /images/wind-resource.png
+   #     - item: ACES-Model.html
+   #       image: /images/aces.png
+   #     - item: portfolio-optimization.html
+   #       image: /images/img5.png
+   #     - item: asset-evaluation.html
+   #       image: /images/tx2.png

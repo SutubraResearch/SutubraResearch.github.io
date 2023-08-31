@@ -6,7 +6,7 @@ layout: hello-default
 # these variables are required -------------------------------
 banner_title: Sutubra Research
 banner_subtitle: Test
-background_image: /images/Slide5.jpeg
+background_image: /images/logo.png
 
 # all of the following variables are optional -----------------
 page_url: /hello # only include this variable if you aren't building the page to your primary domain
@@ -30,7 +30,7 @@ linkedin: cameron-wade-963748112/ # the part after ("https://www.linkedin.com/in
 # By declaring these variables, you can include a portfolio showcasing your work and organize your portfolio's items into a custom layout, all without adding any CSS. In addition, you must 1) create an HTML file in the_includes folder for each project with the text you'd like to display, and 2) create a YAML file in the _data folder describing the order in which each project should be shown and categorized. See `/includes/example.html` and `/_data/work.yml` for examples.
 
 portfolio: ongoing work # the heading for your portfolio and title of your YAML file
-#portfolio_description: here's a preview of what I'm busy working on at the moment # a description to be desplayed below the heading and above the content
+portfolio_description: here's a preview of what I'm busy working on at the moment # a description to be desplayed below the heading and above the content
 
 # optional CTA section --------------------------------------------------
 

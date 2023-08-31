@@ -6,7 +6,7 @@ layout: hello-default
 # these variables are required -------------------------------
 banner_title: Sutubra Research
 banner_subtitle:
-background_image: /images/Slide2.jpg
+background_image: /images/background2.png
 
 # all of the following variables are optional -----------------
 page_url: /test1 # only include this variable if you aren't building the page to your primary domain
@@ -46,4 +46,4 @@ cta_button_label: contact # the label on the button
 
 **Sutubra Research** is a consulting firm specializing in mathematical modelling and analysis to support clients in their pursuit of energy system decarbonization. Since its incorporation in 2020, we have worked with clients across governments, utilities, non-profits, and academia on various projects related to resource planning, portfolio optimization, and energy system model development.
 
-**Cameron Wade** is the founder and principal of Sutubra Research, Prior to founding Sutubra Research, Cameron conducted research at the Institute for Integrated Energy Systems at the University of Victoria, where he developed novel modelling techniques and performed analyses on energy system transition pathways for Western Canada. Cameron has co-authored numerous peer-reviewed journal articles and is an invited speaker to international energy system modelling conferences. Cameron holds a BSc in Physics and Mathematics (double major) from Acadia University where he was also named a University Scholar and a 3-time All-Canadian in Football. He also holds a MSc in Physics and a MSc in Mathematical Engineering. Prior to working in energy system modelling, Cameron worked at the European Space Agency in their Advanced Concepts Team.
+**Cameron Wade** is the founder and principal of Sutubra Research. Prior to found Sutubra, Cameron conducted research at the Institute for Integrated Energy Systems at the University of Victoria, where he developed novel modelling techniques and performed analyses on energy system transition pathways for Western Canada. Cameron has co-authored numerous peer-reviewed journal articles and is an invited speaker to international energy system modelling conferences. Cameron holds a BSc in Physics and Mathematics (double major) from Acadia University where he was also named a University Scholar and a 3-time All-Canadian in Football. He also holds a MSc in Physics and a MSc in Mathematical Engineering. Prior to working in energy system modelling, Cameron worked at the European Space Agency in their Advanced Concepts Team.

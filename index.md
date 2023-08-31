@@ -5,11 +5,11 @@ layout: hello-default
 
 # these variables are required -------------------------------
 banner_title: Sutubra Research
-#banner_subtitle:
-background_image: /images/Slide5.png
+banner_subtitle: Test
+background_image: /images/Slide5.jpeg
 
 # all of the following variables are optional -----------------
-page_url: /test1 # only include this variable if you aren't building the page to your primary domain
+page_url: /hello # only include this variable if you aren't building the page to your primary domain
 
 # favicon
 favicon: /assets/ico/logo.ico

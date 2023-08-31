@@ -9,7 +9,7 @@ banner_subtitle: Test
 background_image: /images/turbines.png
 
 # all of the following variables are optional -----------------
-page_url: /hello # only include this variable if you aren't building the page to your primary domain
+#page_url: /hello # only include this variable if you aren't building the page to your primary domain
 
 # favicon
 favicon: /assets/ico/logo.ico
@@ -22,8 +22,8 @@ linkedin: cameron-wade-963748112/ # the part after ("https://www.linkedin.com/in
 # google_analytics: <-- your google analytics Tracking ID
 
 # By declaring these variables, you can include a button that links to an external website or to media.
-about_button: https://github.com/saragong/hello # the link
-about_button_label: get hello # the label on the button
+# about_button: https://github.com/saragong/hello # the link
+# about_button_label: get hello # the label on the button
 
 # optional portfolio section ------------------------------------------
 
@@ -36,7 +36,7 @@ portfolio_description:   # a description to be desplayed below the heading and a
 
 # By declaring these variables, you can include a CTA section.
 cta: connect # the heading for your CTA section
-cta_description: questions, comments, or concerns? please don't hesitate to reach out. # a description to be desplayed below the heading and above the content
+cta_description: please don't hesitate to get in touch # a description to be desplayed below the heading and above the content
 cta_button: mailto:cameron@sutubra.ca # a link to an external website or to media
 cta_button_label: contact # the label on the button
 

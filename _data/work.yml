@@ -2,17 +2,17 @@
 # in the root directory
 
 work:
-  - category: New York City
+  - category: Ongoing
     items:
       - item: MIP.html
-        image: /images/NYC1.jpg # optionally, include the file path for an image for each item
+        image: /images/img3.png # optionally, include the file path for an image for each item
       - item: example.html
         image: /images/NYC2.jpg
       - item: example2.html
         image: /images/NYC3.jpg
       - item: example3.html
         image: /images/NYC4.jpg
-  - category: Los Angeles
+  - category: Previous (selected)
     items:
       - item: example.html
         image: /images/LA1.jpg

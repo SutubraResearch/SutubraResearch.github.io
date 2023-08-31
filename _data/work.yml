@@ -9,13 +9,13 @@ work:
       - item: Temoa.html
         image: /images/Temoa_logo_color_small.png
       - item: LDES.html
-        image: /images/NYC3.jpg
-      - item: example3.html
-        image: /images/NYC4.jpg
+        image: /images/battery.png
+      - item: Temoa-Canada.html
+        image: /images/temoa-canada.jpg
   - category: Completed (selected)
     items:
-      - item: example.html
-        image: /images/LA1.jpg
+      - item: resource-characterization.html
+        image: /images/wind-resource.png
       - item: example.html
         image: /images/LA2.jpg
       - item: example2.html

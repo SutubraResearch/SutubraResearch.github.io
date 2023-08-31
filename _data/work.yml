@@ -15,7 +15,7 @@ work:
   - category: Completed (selected)
     items:
       - item: resource-characterization.html
-        image: /images/resource2.png
+        image: /images/resource3.png
       - item: ACES-Model.html
         image: /images/aces.png
       - item: portfolio-optimization.html

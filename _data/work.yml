@@ -5,9 +5,9 @@ work:
   - category: Ongoing
     items:
       - item: MIP.html
-        image: /images/img3.png # optionally, include the file path for an image for each item
+        image: /images/panes.png # optionally, include the file path for an image for each item
       - item: Temoa.html
-        image: /images/Temoa_logo_color_small.png
+        image: /images/img3.png
       - item: LDES.html
         image: /images/battery.png
       - item: Temoa-Canada.html
@@ -15,7 +15,7 @@ work:
   - category: Completed (selected)
     items:
       - item: resource-characterization.html
-        image: /images/wind-resource.png
+        image: /images/resource2.png
       - item: ACES-Model.html
         image: /images/aces.png
       - item: portfolio-optimization.html

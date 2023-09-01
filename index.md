@@ -43,24 +43,12 @@ cta_button_label: contact # the label on the button
 ---			
 [//]: # (write a bit about yourself here)
 
-
-#**Sutubra Research** is a consulting firm specializing in mathematical modelling and analysis to support clients in their pursuit of energy system decarbonization. Since its incorporation in 2020, we have worked with clients across governments, utilities, non-profits, and academia on various projects related to resource planning, portfolio optimization, and energy system model development.
-
 **Who We Are at Sutubra Research**
 
 Sutubra Research is a consulting firm focused on helping clients make better decisions about decarbonizing their energy systems. Since we started in 2021, we've worked with a variety of organizations, including government agencies, utilities, non-profits, and universities. Our projects often involve elements of mathematical optimization, integrated resource planning, and energy system model development.
-
-### *How We Work**
-
-* Advanced Models: We use well-established energy system models to give you useful and practical advice.
-* Tailored Solutions: We know that every client is different, so we adjust our models to better fit your specific needs.
-* Working with Experts: We collaborate with scholars to improve our methods and stay at the forefront of new developments.
-* Staying Informed: We keep up with the latest research to make sure our methods and models are up-to-date.
-* Thorough Analysis: We use solid mathematical and computing methods to make sure our advice is both useful and reliable.
-
-By putting all these pieces together, we aim to help you not just adapt to changes in the energy sector, but to be a part of leading that change.
-
-**How We Work**
+<p style="text-align:center;">This is centered text.</p>
+<center>This is centered text2.</center>
+<center>**How We Work**</center>
 
 - **Advanced Models**: We use well-established energy system models to give you useful and practical advice.
 - **Tailored Solutions**: We know that every client is different, so we adjust our models to better fit your specific needs.

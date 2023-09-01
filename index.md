@@ -50,7 +50,7 @@ cta_button_label: contact # the label on the button
 
 Sutubra Research is a consulting firm focused on helping clients make better decisions about decarbonizing their energy systems. Since we started in 2021, we've worked with a variety of organizations, including government agencies, utilities, non-profits, and universities. Our projects often involve elements of mathematical optimization, integrated resource planning, and energy system model development.
 
-**How We Work**
+### *How We Work**
 
 * Advanced Models: We use well-established energy system models to give you useful and practical advice.
 * Tailored Solutions: We know that every client is different, so we adjust our models to better fit your specific needs.

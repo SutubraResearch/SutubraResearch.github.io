@@ -46,16 +46,15 @@ cta_button_label: contact # the label on the button
 **Who We Are at Sutubra Research**
 
 Sutubra Research is a consulting firm focused on helping clients make better decisions about decarbonizing their energy systems. Since we started in 2021, we've worked with a variety of organizations, including government agencies, utilities, non-profits, and universities. Our projects often involve elements of mathematical optimization, integrated resource planning, and energy system model development.
-<p style="text-align:center;"><em>This is centered text</em>.</p>
-<center><em>This is centered text2</em>.</center>
-<center><em>How We Work</em></center>
-<ul>
-  <li><em>Advanced Models<\em>: We use well-established energy system models to give you useful and practical advice.</li>
-  <li><em>Tailored Solutions<\em>: We know that every client is different, so we adjust our models to better fit your specific needs.</li>
-  <li><em>Working with Experts<\em>: We collaborate with scholars to improve our methods and stay at the forefront of new developments.</li>
-  <li><em>Staying Informed<\em>: We keep up with the latest research to make sure our methods and models are up-to-date.</li>
-  <li><em>Thorough Analysis<\em>: We use solid mathematical and computing methods to make sure our advice is both useful and reliable.</li>
-</ul>
+
+**How We Work**
+
+- **Advanced Models**: We use well-established energy system models to give you useful and practical advice.
+- **Tailored Solutions**: We know that every client is different, so we adjust our models to better fit your specific needs.
+- **Working with Experts**: We collaborate with scholars to improve our methods and stay at the forefront of new developments.
+- **Staying Informed**: We keep up with the latest research to make sure our methods and models are up-to-date.
+- **Thorough Analysis**: We use solid mathematical and computing methods to make sure our advice is both useful and reliable.
+
 By putting all these pieces together, we aim to help you not just adapt to changes in the energy sector, but to be a part of leading that change.
 
 

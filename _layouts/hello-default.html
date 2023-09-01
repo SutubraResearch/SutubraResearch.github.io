@@ -109,14 +109,14 @@
                 {% endif %}
               </section>
 
-              <!-- section: work-->
-              {% if page.work %}
-              <section class="wrapper style3 container special" id="{{ page.portfolio }}">
-                  <header class="special">
-                    <h2><strong>{{ page.portfolio }}</strong></h2>
+              <!-- section: about-->
+              {% if page.about %}
+              <section class="wrapper style3 container special" id="{{ page.about }}">
+  					      <header class="special">
+                    <h2><strong>{{ page.about }}</strong></h2>
                   </header>
-                  <p>{{ page.portfolio_description }}</p>
-                  {% for categories in site.data[page.portfolio][page.portfolio] %}
+                  <p>{{ page.about_description }}</p>
+                  {% for categories in site.data[page.about][page.about] %}
                   <div class="row">
 
                             <div class="12u">
@@ -137,8 +137,6 @@
                   </div>
 
                   {% endfor %}
-
-              </section>
 
             <!-- section: work-->
             {% if page.portfolio %}

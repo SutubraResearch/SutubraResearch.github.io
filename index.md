@@ -27,7 +27,6 @@ linkedin: cameron-wade-963748112/ # the part after ("https://www.linkedin.com/in
 
 # optional about section ------------------------------------------
 
-
 about: about # the heading for your portfolio and title of your YAML file
 about_description:   # a description to be desplayed below the heading and above the content
 

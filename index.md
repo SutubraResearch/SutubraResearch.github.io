@@ -51,7 +51,7 @@ Sutubra Research is a consulting firm focused on helping clients make better dec
 
 - **Advanced Models**: We use well-established energy system models to give you useful and practical advice.
 - **Tailored Solutions**: We know that every client is different, so we adjust our models to better fit your specific needs.
-- **Working with Experts**: We collaborate with scholars to improve our methods and stay at the forefront of new developments.
+- **Working with Experts**: We collaborate with leading academics to improve our methods and stay at the forefront of new developments.
 - **Staying Informed**: We keep up with the latest research to make sure our methods and models are up-to-date.
 - **Thorough Analysis**: We use solid mathematical and computing methods to make sure our advice is both useful and reliable.
 

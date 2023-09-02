@@ -52,14 +52,14 @@ Sutubra Research is a consulting firm focused on helping clients make better dec
 **How We Work**
 
 - **Advanced Models**: We use well-established energy system models to give you useful and practical advice.
-- **Tailored Solutions**: We know that every client is different, so we adjust our models to better fit your specific needs.
+- **Tailored Solutions**: We know that every client is different, so we adjust our models or create bespoke ones to better fit your specific needs.
 - **Working with Experts**: We collaborate with leading academics to improve our methods and stay at the forefront of new developments.
 - **Staying Informed**: We keep up with the latest research to make sure our methods and models are up-to-date.
-- **Thorough Analysis**: We use solid mathematical and computing methods to make sure our advice is both useful and reliable.
+- **Thorough Analysis**: We use rigorous mathematical and computing methods to make sure our advice is both useful and reliable.
 
-By putting all these pieces together, we aim to help you not just adapt to changes in the energy sector, but to be a part of leading that change.
+By putting all these pieces together, we aim to help you not just adapt to the energy transition, but to be a part of leading the change.
 
 
 **People**
 
-**Cameron Wade** is the founder and principal of Sutubra Research. Prior to founding Sutubra, Cameron was a member of the Institute for Integrated Energy Systems at the University of Victoria, where he developed novel modelling techniques and performed analyses on energy system transition pathways for Western Canada. Cameron has co-authored numerous peer-reviewed journal articles and is an invited speaker to international energy system modelling conferences. Cameron holds a BSc in Physics and Mathematics (double major) from Acadia University where he graduated as a University Scholar and a 3-time All-Canadian in football. He also holds a MSc in Physics and a MSc in Mathematical Engineering. Before his work in energy systems, Cameron was part of the Advanced Concepts Team at the European Space Agency.
+**Cameron Wade** is the Founder and Principal of Sutubra Research. Before establishing Sutubra, he was affiliated with the Institute for Integrated Energy Systems at the University of Victoria.  During his tenure there, he innovated new modeling techniques and conducted in-depth analyses of energy transition pathways in Western Canada. Cameron has co-authored several peer-reviewed journal articles and is a regular presenter at international conferences on energy system modeling. He earned a BSc in Physics and Mathematics as a double major from Acadia University, where he distinguished himself as a University Scholar and a three-time All-Canadian in football. In addition to this, he holds an MSc in Physics and another MSc in Mathematical Engineering. Prior to his focus on energy systems, he was a member of the Advanced Concepts Team at the European Space Agency.

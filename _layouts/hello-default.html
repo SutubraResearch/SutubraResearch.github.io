@@ -107,6 +107,14 @@
                         </footer>
                   </section>
                 {% endif %}
+                <section class="wrapper style1 container special">
+                      <footer class="major">
+                          <ul class="buttons">
+                            <li><a href="{{ /files/CV-CameronWade.pdf.url }}" class="button">{{ "Download my CV" }}</a></li>
+                          </ul>
+                      </footer>
+                </section>
+
               </section>
 
               <!-- section: about-->
@@ -150,11 +158,9 @@
                 <p>{{ page.portfolio_description }}</p>
                 {% for categories in site.data[page.portfolio][page.portfolio] %}
                 <div class="row">
-
                           <div class="12u">
                               <h3 style="margin-bottom:1em; font-size:1.25em"><strong>{{ categories.category}}</strong></h3>
                           </div>
-
                           {% for items in categories.items %}
                           <div class="6u item">
                             <section>

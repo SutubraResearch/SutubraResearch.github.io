@@ -10,10 +10,10 @@ work:
   - category:
     items:
       - item: LDES.html
-        image: /images/battery.png
+        image: /images/batt1.png
       - item: Temoa-Canada.html
         image: /images/temoa-canada.png
-  - category: Completed (selected)
+  - category: Previous (selected)
     items:
       - item: resource-characterization.html
         image: /images/resource3.png

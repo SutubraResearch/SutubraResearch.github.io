@@ -81,8 +81,6 @@
           <img src="/images/Sutubra_Name_White.png" alt="Sutubra Research" style="height:100px;">
           <p style="text-transform:none;">{{'' }}</p>
         </div>
-
-
     </section>
 
 <!--CONTENT-->
@@ -123,38 +121,6 @@
 
               </section>
 
-              <!-- section: about-->
-          <!--    {% if page.about %}
-              <section class="wrapper style3 container special" id="{{ page.about }}">
-  					      <header class="special">
-                    <h2><strong>{{ page.about }}</strong></h2>
-                  </header>
-                  <p>{{ page.about_description }}</p>
-                  {% for categories in site.data[page.about][page.about] %}
-                  <div class="row">
-
-                            <div class="12u">
-                                <h3 style="margin-bottom:1em; font-size:1.25em"><strong>{{ categories.category}}</strong></h3>
-                            </div>
-
-                            {% for items in categories.items %}
-                            <div class="6u item">
-                              <section>
-                                <div class="image featured">
-                                    <img src="{{ items.image }}" alt="" />
-                                </div>
-
-                                {% include {{ items.item }} %}
-                              </section>
-                            </div>
-                            {% endfor %}
-                  </div>
-
-                  {% endfor %}
-
-                </section>
-                {% endif %}
---!>
             <!-- section: work-->
             {% if page.portfolio %}
             <section class="wrapper style3 container special" id="{{ page.portfolio }}">

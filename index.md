@@ -41,7 +41,7 @@ portfolio_description:   # a description to be desplayed below the heading and a
 
 # By declaring these variables, you can include a CTA section.
 cta: connect # the heading for your CTA section
-cta_description: please don't hesitate to get in touch # a description to be desplayed below the heading and above the content
+cta_description: curious about how we can work together? # a description to be desplayed below the heading and above the content
 cta_button: mailto:cameron@sutubra.ca # a link to an external website or to media
 cta_button_label: contact # the label on the button
 

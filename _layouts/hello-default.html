@@ -125,13 +125,13 @@
             {% if page.portfolio %}
             <section class="wrapper style3 container special" id="{{ page.portfolio }}">
 					      <header class="special">
-                  <h2 style="margin-top:-3em; margin-bottom: -1em"><strong>{{ page.portfolio }}</strong></h2>
+                  <h2 style="margin-top:-3em"><strong>{{ page.portfolio }}</strong></h2>
                 </header>
                 <p>{{ page.portfolio_description }}</p>
                 {% for categories in site.data[page.portfolio][page.portfolio] %}
                 <div class="row">
                           <div class="12u">
-                              <h3 style="margin-bottom:1em; font-size:1.25em"><strong>{{ categories.category}}</strong></h3>
+                              <h3 style="margin-bottom:0.2em; font-size:1.25em"><strong>{{ categories.category}}</strong></h3>
                           </div>
                           {% for items in categories.items %}
                           <div class="6u item">

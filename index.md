@@ -6,7 +6,7 @@ layout: hello-default
 # these variables are required -------------------------------
 banner_title: Sutubra Research
 banner_subtitle: Test
-background_image: /images/turbines.png
+background_image: /images/turbines2.png
 
 # all of the following variables are optional -----------------
 #page_url: /hello # only include this variable if you aren't building the page to your primary domain
@@ -17,7 +17,7 @@ favicon: /assets/ico/logo.ico
 # social media
 #twitter_username: notsaragong # # your twitter handle
 github_username:  SutubraResearch # your github username
-linkedin: cameron-wade-963748112/ # the part after ("https://www.linkedin.com/in/...")
+linkedin: cameron~wade/ # the part after ("https://www.linkedin.com/in/...")
 # facebook_username: <-- your facebook username (the part after "https://www.facebook.com/...")
 # google_analytics: <-- your google analytics Tracking ID
 

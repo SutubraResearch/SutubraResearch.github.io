@@ -89,8 +89,8 @@
 
         <article id="main">
             <!-- section: about -->
-              <header id="about">
-                <h2 style="margin-top:-0.75em; text-align: center"><strong>about</strong></h2>
+              <header>
+                <h2 style="margin-top:-0.75em; text-align: center" id="about"><strong>about</strong></h2>
               </header>
 
               <section class="special container" style="margin-bottom:2em">
@@ -123,9 +123,9 @@
 
             <!-- section: work-->
             {% if page.portfolio %}
-            <section class="wrapper style3 container special" id="{{ page.portfolio }}">
+            <section class="wrapper style3 container special">
 					      <header class="special">
-                  <h2 style="margin-top:-3.2em; margin-bottom:-3em"><strong>{{ page.portfolio }}</strong></h2>
+                  <h2 style="margin-top:-3.2em; margin-bottom:-3em" id="{{ page.portfolio }}"><strong>{{ page.portfolio }}</strong></h2>
                 </header>
                 <!--<p>{{ page.portfolio_description }}</p> -->
                 {% for categories in site.data[page.portfolio][page.portfolio] %}

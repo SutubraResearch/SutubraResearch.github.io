@@ -61,6 +61,7 @@ By putting all these pieces together, we aim to help you not just adapt to the e
 
 
 **People**
+
 <img src="./images/CW-Headshot.jpg"
      alt="Headshot of Cameron Wade"
      style="height: 50%; width: 50%; object-fit: contain" />

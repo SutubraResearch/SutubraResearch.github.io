@@ -47,7 +47,7 @@ cta_button_label: contact # the label on the button
 
 ---			
 [//]: # (write a bit about yourself here)
-Sutubra Research is a consulting firm focused on helping people make better decisions about decarbonizing their energy systems. Since we started in 2021, we've worked with a variety of organizations, including government agencies, utilities, non-profits, and universities. Our projects often involve elements of mathematical optimization, integrated resource planning, and energy system model development.
+Sutubra Research is a consulting firm focused on helping clients make better and more robust decisions about decarbonizing their energy systems. Since we started in 2021, we've worked with a variety of organizations, including government agencies, utilities, non-profits, and universities. Our expertise lies in mathematical optimization, integrated resource planning, and energy system model development.
 
 **How We Work**
 

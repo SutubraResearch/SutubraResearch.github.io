@@ -3,9 +3,11 @@
 # required, replace with your own information -----
 title: Sutubra Research
 author: Cameron Wade
-description: # >
+description: Sutubra Research is a consulting firm focused on helping clients make better and more robust decisions about decarbonizing their energy systems.# >
 #  A minimalist template for designing a personal GitHub Pages website - without typing a single line of code.
-baseurl: ""
+baseurl: "https://sutubra.ca"
+url: "https://sutubra.ca"
+
 
 plugins:
   - jekyll-feed

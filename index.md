@@ -47,17 +47,17 @@ cta_button_label: contact # the label on the button
 
 ---			
 [//]: # (write a bit about yourself here)
-Sutubra Research is a consulting firm focused on helping clients make better and more robust decisions about decarbonizing their energy systems. Since we started in 2021, we've worked with a variety of organizations, including government agencies, utilities, non-profits, and universities. Our expertise lies in mathematical optimization, integrated resource planning, and energy system model development.
+At Sutubra Research, we specialize in power system and integrated energy system modelling to support strategic decision-making. We work with clients across North America—including governments, utilities, and independent power producers—providing expertise in capacity expansion modelling, renewable energy integration, and integrated resource planning. Our solutions combine open modelling frameworks with deep industry knowledge to ensure informed decision-making in an evolving energy landscape.
 
 **How We Work**
 
-- **Advanced Models**: We use well-established energy system models to give you useful and practical advice.
-- **Tailored Solutions**: We know that every client is different, so we adjust our models or create bespoke ones to better fit your specific needs.
-- **Working with Experts**: We collaborate with leading academics to improve our methods and stay at the forefront of new developments.
-- **Staying Informed**: We keep up with the latest research to make sure our methods and models are up-to-date.
-- **Thorough Analysis**: We use rigorous mathematical and computing methods to make sure our advice is both useful and reliable.
+- **Proven Models**: We apply established energy system models to deliver practical, actionable insights.
+- **Tailored Solutions**: Every client is unique, and we customize or develop bespoke models to fit specific needs.
+- **Keeping Current**: We collaborate with leading academics and integrate the latest research to refine our 
+methods and ensure our models reflect industry best practices.
+- **Thorough Analysis**: Our work is grounded in robust mathematical and computational methods to provide reliable, data-driven advice.
 
-By putting all these pieces together, we aim to help you not just adapt to the energy transition, but to be a part of leading the change.
+By bringing these elements together, we help you not just adapt to the energy transition, but lead it.
 
 
 **People**
@@ -66,4 +66,4 @@ By putting all these pieces together, we aim to help you not just adapt to the e
      alt="Headshot of Cameron Wade"
      style="height: 45%; width: 45%; object-fit: contain" />
 
-**Cameron Wade** is the Founder and Principal of Sutubra Research. Before establishing Sutubra, he was affiliated with the Institute for Integrated Energy Systems at the University of Victoria.  During his tenure there, he innovated new modeling techniques and conducted in-depth analyses of energy transition pathways in Western Canada. Cameron has co-authored several peer-reviewed journal articles and is a regular presenter at international conferences on energy system modeling. He earned a BSc in Physics and Mathematics as a double major from Acadia University, where he distinguished himself as a University Scholar and a three-time All-Canadian in football. In addition to this, he holds an MSc in Physics and another MSc in Mathematical Engineering. Prior to his focus on energy systems, he was a member of the Advanced Concepts Team at the European Space Agency.
+**Cameron Wade** is the Founder and Principal of Sutubra Research. He focuses on developing and applying energy system optimization models to support strategic decision-making across public and private sectors. He has contributed to national model intercomparison studies in the U.S. and Canada, and his analysis on hydrogen tax credits has been cited by U.S. lawmakers. In addition to consulting, Cameron collaborates with academic researchers, publishing peer-reviewed studies and developing open-source tools such as Temoa. He holds MSc degrees in Physics and Mathematics and previously worked at the European Space Agency’s Advanced Concepts Team.

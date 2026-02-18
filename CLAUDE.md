@@ -11,6 +11,10 @@ What makes Cameron unusual is that he sits at the intersection of three worlds t
 
 There's a philosophical thread: instead of producing "the answer," he maps the space of viable answers. 1,100 near-cost-optimal pathways in the Nature Communications paper. That's not a technique — it's a worldview about how planning should work.
 
+The 2026 planning landscape is harder than even a few years ago — it's not just decarbonization anymore, it's affordability pressure, energy security, firming variable renewables, fuel supply risk, and returning load growth all hitting simultaneously, often in tension. Cameron's work sits at the center of that complexity.
+
+His work also spans sector boundaries. The hardest questions are often at the intersections — buildings electrifying reshapes electricity demand, heat pump vs. gas vs. hybrid depends on three systems' costs simultaneously. He's co-authored an ERL paper demonstrating exactly this (hybrid heat pumps in cold climates). Most consultants stay within one sector. Cameron models across them.
+
 When someone hires Sutubra, they get Cameron. Not a team. Not a layer of management. The person who writes the code and builds the models.
 
 ## THE MOST IMPORTANT RULE

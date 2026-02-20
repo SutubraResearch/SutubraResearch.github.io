@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sutubra.ca/sitemap.xml

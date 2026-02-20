@@ -1,0 +1,530 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sutubra Research</title>
+  <meta name="description" content="Sutubra Research. Energy system modeling. Halifax, Nova Scotia.">
+  <link rel="icon" href="/assets/ico/logo.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --navy: #0f2b46;
+      --text: #1a1a1a;
+      --body: #444;
+      --light: #888;
+      --teal: #5ebcbc;
+      --rule: #e5e5e5;
+      --bg: #fff;
+      --bg-alt: #f9fafa;
+    }
+
+    html {
+      font-size: 17px;
+      scroll-behavior: smooth;
+      scroll-padding-top: 70px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.75;
+      font-weight: 400;
+    }
+
+    a { color: var(--text); }
+    a:hover { color: var(--teal); }
+
+    ::selection { background: var(--teal); color: #fff; }
+
+    /* ---- NAV ---- */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      background: transparent;
+      border-bottom: 1px solid transparent;
+      transition: background 0.35s ease, border-color 0.35s ease, box-shadow 0.35s ease;
+    }
+    nav.scrolled {
+      background: rgba(255,255,255,0.97);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom-color: var(--rule);
+      box-shadow: 0 1px 8px rgba(0,0,0,0.06);
+    }
+    .nav-inner {
+      max-width: 800px; margin: 0 auto; padding: 0 2rem;
+      height: 60px; display: flex; align-items: center; justify-content: space-between;
+    }
+    .nav-logo img {
+      height: 31px;
+      transition: filter 0.35s ease;
+      transform: translateY(3px);
+    }
+    /* Invert logo to white when nav is transparent over hero */
+    nav:not(.scrolled) .nav-logo img {
+      filter: brightness(0) invert(1);
+    }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a {
+      font-size: 0.76rem; font-weight: 500;
+      text-decoration: none; letter-spacing: 0.03em;
+      transition: color 0.35s ease;
+    }
+    nav:not(.scrolled) .nav-links a { color: rgba(255,255,255,0.7); }
+    nav:not(.scrolled) .nav-links a:hover { color: #fff; }
+    nav.scrolled .nav-links a { color: var(--light); }
+    nav.scrolled .nav-links a:hover { color: var(--text); }
+
+    /* ---- HERO ---- */
+    .hero {
+      position: relative;
+      min-height: 90vh;
+      display: flex;
+      align-items: flex-end;
+      background-image: url('/images/turbines.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        to bottom,
+        rgba(10, 20, 40, 0.35) 0%,
+        rgba(10, 20, 40, 0.50) 50%,
+        rgba(10, 20, 40, 0.80) 100%
+      );
+      z-index: 1;
+    }
+    .hero .inner {
+      position: relative; z-index: 2;
+      max-width: 800px; margin: 0 auto; padding: 0 2rem;
+      padding-bottom: 80px;
+      width: 100%;
+    }
+    .hero h1 {
+      font-size: 1.65rem; font-weight: 500; line-height: 1.55;
+      letter-spacing: -0.01em; max-width: 620px;
+      margin-bottom: 20px;
+      color: #fff;
+    }
+    .hero p {
+      font-size: 0.92rem; color: rgba(255,255,255,0.55);
+      max-width: 520px; line-height: 1.7;
+    }
+    .hero p a {
+      color: rgba(255,255,255,0.70);
+      text-decoration: underline;
+      text-decoration-color: rgba(255,255,255,0.25);
+      text-underline-offset: 3px;
+    }
+    .hero p a:hover { color: #fff; }
+
+    /* ---- SECTIONS ---- */
+    .section {
+      max-width: 800px; margin: 0 auto; padding: 80px 2rem;
+    }
+    .section-alt {
+      background: var(--bg-alt);
+    }
+    .section-dark {
+      background: var(--navy); color: #fff;
+    }
+
+    .section-label {
+      font-size: 0.72rem; font-weight: 600; letter-spacing: 0.1em;
+      text-transform: uppercase; color: var(--teal);
+      margin-bottom: 2.5rem;
+    }
+
+    /* ---- EXPERTISE (2x2 GRID) ---- */
+    .expertise-intro {
+      font-size: 0.95rem; color: var(--body);
+      line-height: 1.85; margin-bottom: 2.5rem;
+      max-width: 620px;
+    }
+
+    .expertise-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+    }
+
+    .expertise-card {
+      background: var(--bg-alt);
+      border-radius: 5px;
+      padding: 1.5rem;
+      border-left: 3px solid var(--teal);
+    }
+    .expertise-card h3 {
+      font-size: 0.92rem; font-weight: 600; color: var(--text);
+      margin-bottom: 0.5rem;
+    }
+    .expertise-card p {
+      font-size: 0.87rem; color: var(--body);
+      line-height: 1.75;
+    }
+    .expertise-card p + p {
+      margin-top: 0.6rem;
+    }
+    .expertise-card a {
+      text-decoration: underline;
+      text-decoration-color: var(--rule);
+      text-underline-offset: 3px;
+    }
+    .expertise-card a:hover { text-decoration-color: var(--teal); }
+
+    /* ---- BIO ---- */
+    .bio-grid {
+      display: grid; grid-template-columns: 250px 1fr;
+      gap: 2.5rem; align-items: stretch;
+    }
+    .bio-photo {
+      width: 100%; object-fit: cover;
+      object-position: center top;
+      border-radius: 3px;
+      margin-bottom: 4rem;
+    }
+    .bio-text p {
+      font-size: 0.9rem; color: var(--body);
+      line-height: 1.8; margin-bottom: 1rem;
+      max-width: 520px;
+    }
+    .bio-text p:last-child { margin-bottom: 0; }
+    .bio-text a {
+      text-decoration: underline;
+      text-decoration-color: var(--rule);
+      text-underline-offset: 3px;
+    }
+    .bio-text a:hover { text-decoration-color: var(--teal); }
+    .scholar-link {
+      display: inline-block; margin-top: 1rem;
+      font-size: 0.82rem; font-weight: 500; color: var(--teal);
+      text-decoration: none;
+    }
+    .scholar-link:hover { color: var(--text); }
+
+    /* ---- ENGAGEMENT ---- */
+    .engagement-group { margin-bottom: 2rem; }
+    .engagement-group:last-child { margin-bottom: 0; }
+    .engagement-group-label {
+      font-size: 0.72rem; font-weight: 600; letter-spacing: 0.06em;
+      text-transform: uppercase; color: var(--light);
+      margin-bottom: 0.75rem;
+    }
+    .engagement-group ul {
+      list-style: none;
+    }
+    .engagement-group li {
+      font-size: 0.88rem; color: var(--body);
+      padding: 0.4rem 0; line-height: 1.6;
+    }
+    .engagement-group a {
+      text-decoration: underline;
+      text-decoration-color: var(--rule);
+      text-underline-offset: 3px;
+    }
+    .engagement-group a:hover { text-decoration-color: var(--teal); }
+
+    /* ---- CONTACT ---- */
+    .section-dark .section-label { color: var(--teal); }
+    .contact-email {
+      font-size: 1.15rem; font-weight: 500; color: #fff;
+      text-decoration: underline; text-decoration-color: var(--teal);
+      text-underline-offset: 4px;
+    }
+    .contact-email:hover { color: var(--teal); }
+    .contact-note {
+      font-size: 0.85rem; color: rgba(255,255,255,0.4);
+      margin-top: 0.75rem; margin-bottom: 1.5rem;
+    }
+    .contact-links { display: flex; gap: 2rem; flex-wrap: wrap; }
+    .contact-links a {
+      font-size: 0.82rem; font-weight: 500;
+      color: rgba(255,255,255,0.5); text-decoration: none;
+    }
+    .contact-links a:hover { color: #fff; }
+
+    /* ---- FOOTER ---- */
+    footer {
+      background: #091d30; color: rgba(255,255,255,0.2);
+      text-align: center; padding: 1.25rem 0; font-size: 0.75rem;
+    }
+
+    /* ---- HAMBURGER (hidden on desktop) ---- */
+    .hamburger {
+      display: none;
+      background: none; border: none; cursor: pointer;
+      padding: 6px; margin: 0;
+      flex-direction: column; justify-content: center; align-items: center;
+      gap: 4px;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .hamburger span {
+      display: block; width: 20px; height: 2px;
+      background: var(--text);
+      border-radius: 1px;
+      transition: background 0.35s ease;
+    }
+    nav:not(.scrolled) .hamburger span {
+      background: #fff;
+    }
+    nav.scrolled .hamburger span {
+      background: var(--text);
+    }
+
+    /* ---- MOBILE NAV DROPDOWN ---- */
+    .nav-links.mobile-open {
+      display: flex;
+    }
+
+    /* ---- RESPONSIVE ---- */
+    @media (max-width: 640px) {
+      html { font-size: 16px; }
+      .hero { min-height: 85vh; }
+      .hero .inner { padding-bottom: 50px; }
+      .hero h1 { font-size: 1.35rem; }
+      .bio-grid { grid-template-columns: 1fr; }
+      .bio-photo { width: 140px; height: 180px; }
+      .section { padding: 60px 1.5rem; }
+      .contact-links { flex-direction: column; gap: 0.75rem; }
+      .expertise-grid { grid-template-columns: 1fr; }
+
+      /* Hide desktop nav links, show hamburger */
+      .nav-links {
+        display: none;
+        position: absolute;
+        top: 60px; left: 0; right: 0;
+        flex-direction: column;
+        background: rgba(255,255,255,0.97);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        padding: 0.5rem 0;
+        max-height: 0;
+        overflow: hidden;
+        opacity: 0;
+        transition: max-height 0.3s ease, opacity 0.3s ease;
+      }
+      .nav-links.mobile-open {
+        display: flex;
+        max-height: 300px;
+        opacity: 1;
+      }
+      .nav-links li {
+        width: 100%;
+      }
+      .nav-links a {
+        display: block;
+        padding: 0.85rem 2rem;
+        font-size: 0.82rem;
+        color: var(--body) !important;
+      }
+      .nav-links a:hover {
+        color: var(--text) !important;
+      }
+      .hamburger {
+        display: flex;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav id="mainNav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo"><img src="/images/logo_colour.png" alt="Sutubra Research"></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#expertise">Expertise</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#engagement">Engagement</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="inner">
+      <h1>Sutubra Research is an energy system modeling practice working across North America's electricity system and the sectors reshaping it.</h1>
+      <p>Founded by Cameron Wade—an independent consultant based in Halifax, Nova Scotia, and a Principal at <a href="https://www.evolved.energy">Evolved Energy Research</a>.</p>
+    </div>
+  </div>
+
+  <!-- EXPERTISE—2x2 GRID VERSION -->
+  <section id="expertise">
+    <div class="section">
+      <div class="section-label">What Sutubra Does</div>
+
+      <p class="expertise-intro">The planning landscape for North America's electricity system is more complex than it has been in decades. Decarbonization mandates, returning load growth, affordability pressure, energy security, and the challenge of firming variable renewables at scale are all hitting at once—often in tension with each other. Sutubra builds the quantitative models that sit behind these decisions—whether the question is what a system should build over the next 30 years, what a proposed policy will actually cost, or whether a specific technology or project justifies the investment.</p>
+
+      <div class="expertise-grid">
+        <div class="expertise-card">
+          <h3>System Planning</h3>
+          <p>Long-term planning models that determine the right mix of generation, storage, and transmission over a 20- to 30-year horizon. No single set of assumptions about the future is reliable—costs shift, policy changes, demand surprises, weather varies. So rather than producing one optimal plan, the models generate hundreds of near-cost-optimal alternatives: plans that look structurally different but cost about the same. This reveals which investments are robust regardless of how the future unfolds, which decisions can wait, and where the genuine trade-offs lie. The approach is the basis of a co-authored paper in <a href="https://doi.org/10.1038/s41467-023-38987-2"><em>Nature Communications</em></a>.</p>
+          <p>The models are built on high-resolution wind and solar resource characterization and tested against multiple historical weather years. The same framework evaluates specific technologies and projects at the system level: what long-duration storage, interregional transmission, hydrogen, or synthetic fuels are actually worth to a given system under different futures.</p>
+        </div>
+
+        <div class="expertise-card">
+          <h3>Cross-Sector Energy Modeling</h3>
+          <p>The hardest planning questions often live at the boundaries between sectors—and getting them wrong is expensive. For instance, when buildings electrify, it reshapes electricity demand curves. The choice between heat pumps, gas, and hybrid systems depends on electric system costs, gas cost recovery, and household economics simultaneously. Sutubra builds sector-coupled models that capture these interdependencies across electricity, buildings, transportation, and industry.</p>
+          <p>A co-authored paper in <a href="https://iopscience.iop.org/article/10.1088/1748-9326/ad6c63/meta"><em>Environmental Research Letters</em></a> examined exactly this—finding that fully electrifying peak heating loads in cold climates carries extreme marginal abatement costs compared to hybrid approaches, using least-cost optimization across all three systems.</p>
+        </div>
+
+        <div class="expertise-card">
+          <h3>Forecasting & Reliability</h3>
+          <p>As renewable penetration grows and heating electrifies, both supply and demand become highly weather-sensitive—making traditional point-estimate planning increasingly unreliable. Sutubra provides resource adequacy assessments and probabilistic load forecasting using deep historical weather datasets. The result is a forecast calibrated to reality: full probability distributions with honest confidence intervals, not point estimates. The methods draw on extreme value theory and Monte Carlo simulation to characterize tail risks—the low-probability, high-consequence events that drive capacity planning decisions. This covers peak demand, load shapes, energy forecasting, and the structural shifts in consumption driven by electrification, distributed generation, and emerging loads.</p>
+        </div>
+
+        <div class="expertise-card">
+          <h3>Behind-the-Meter Modeling</h3>
+          <p>At the facility level, optimizing the sizing, scheduling, and dispatch of on-site resources—storage, solar, flexible loads—to minimize costs and capture value. This also includes clean energy target setting for companies and institutions: what's achievable, what it costs, and what the realistic timeline looks like. The work means navigating uncertain load profiles, variable generation, evolving tariff structures, and grid service revenue opportunities—the same optimization and uncertainty quantification that applies at the grid scale, pointed at a different problem.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BIO -->
+  <div class="section-alt">
+    <section id="about">
+      <div class="section">
+        <div class="section-label">About</div>
+        <div class="bio-grid">
+          <img src="/images/CW-Headshot.jpg" alt="Cameron Wade" class="bio-photo">
+          <div class="bio-text">
+            <p>Cameron Wade is the founder of Sutubra Research and a Principal at <a href="https://www.evolved.energy">Evolved Energy Research</a>. His work spans capacity expansion modeling, demand forecasting, and decarbonization pathway analysis for public- and private-sector clients across North America.</p>
+
+            <p>His research has been published in <a href="https://doi.org/10.1038/s41467-023-38987-2"><em>Nature Communications</em></a>, covered by the <em>New York Times</em>, and cited by U.S. lawmakers—including an invitation to brief Senate staff on data center grid impacts. He is a core team member of the <a href="https://www.cmu.edu/energy/key-initiatives/open-energy-outlook/index.html">Open Energy Outlook</a> at Carnegie Mellon University, a co-investigator on the <a href="https://sustainablesystems.civmin.utoronto.ca/canadian-open-energy-canoe-model/">CANOE</a> pan-Canadian energy model, and serves on the Technical Advisory Committee for Canada's <a href="https://emhub.ca">Energy Modelling Hub</a>.</p>
+
+            <p>Wade holds a BSc in Physics and Mathematics from Acadia University and dual MSc degrees—in Applied Physics and Mathematical Engineering—through the Erasmus Mundus programme. His early research included work with the European Space Agency's Advanced Concepts Team and at the Institute for Integrated Energy Systems at the University of Victoria.</p>
+
+            <a class="scholar-link" href="https://scholar.google.com/citations?user=2iWqSgsAAAAJ" target="_blank" rel="noopener">Google Scholar &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ENGAGEMENT -->
+  <section id="engagement">
+    <div class="section">
+      <div class="section-label">Engagement</div>
+
+      <div class="engagement-group">
+        <div class="engagement-group-label">Research & Advisory</div>
+        <ul>
+          <li>Core team—<a href="https://www.cmu.edu/energy/key-initiatives/open-energy-outlook/index.html" target="_blank" rel="noopener">Open Energy Outlook</a>, Carnegie Mellon University</li>
+          <li>Co-investigator—<a href="https://sustainablesystems.civmin.utoronto.ca/canadian-open-energy-canoe-model/" target="_blank" rel="noopener">CANOE Model</a> (pan-Canadian open-source energy model), University of Toronto &amp; University of Calgary</li>
+          <li>Technical Advisory Committee—Canada's <a href="https://emhub.ca" target="_blank" rel="noopener">Energy Modelling Hub</a></li>
+          <li>U.S. and Canadian national model intercomparison projects</li>
+        </ul>
+      </div>
+
+      <div class="engagement-group">
+        <div class="engagement-group-label">Selected Publications</div>
+        <ul>
+          <li><a href="https://doi.org/10.1038/s41467-023-38987-2" target="_blank" rel="noopener">Diverse Decarbonization Pathways Under Near Cost-Optimal Futures</a> — <em>Nature Communications</em>, 2024</li>
+          <li><a href="https://iopscience.iop.org/article/10.1088/1748-9326/ad6c63/meta" target="_blank" rel="noopener">Hybrid Heat Pumps Avoid Extreme Marginal Abatement Costs of Electrifying Peak Heating Loads in Cold Regions</a> — <em>Environmental Research Letters</em>, 2024</li>
+          <li><a href="https://iopscience.iop.org/article/10.1088/2753-3751/ade548/meta" target="_blank" rel="noopener">Process and Policy Insights from an Intercomparison of Open Electricity System Capacity Expansion Models</a> — <em>Environmental Research: Energy</em>, 2025</li>
+          <li><a href="https://iopscience.iop.org/article/10.1088/2753-3751/ada614" target="_blank" rel="noopener">Marginal Abatement Costs for Greenhouse Gas Emissions in the United States Using an Energy Systems Approach</a> — <em>Environmental Research: Energy</em>, 2025</li>
+          <li><a href="https://energy.cmu.edu/_files/documents/electricity-grid-impacts-of-rising-demand-from-data-centers-and-cryptocurrency-mining-operations.pdf" target="_blank" rel="noopener">Data Center Grid Impacts and U.S. Power Sector Emissions</a> — Open Energy Outlook, Carnegie Mellon University</li>
+          <li><a href="https://scholar.google.com/citations?user=2iWqSgsAAAAJ" target="_blank" rel="noopener">Full publication list on Google Scholar &rarr;</a></li>
+        </ul>
+      </div>
+
+      <div class="engagement-group">
+        <div class="engagement-group-label">Talks & Media</div>
+        <ul>
+          <li>Research covered by the <a href="https://www.nytimes.com/2025/08/14/business/energy-environment/ai-data-centers-electricity-costs.html" target="_blank" rel="noopener"><em>New York Times</em></a></li>
+          <li>Co-authored Open Energy Outlook analysis on hydrogen tax credits (45V) cited by U.S. senators in <a href="https://www.cantwell.senate.gov/imo/media/doc/letter_to_secretary_yellen-section_45v_credit_for_production_of_clean_hydrogen_final.pdf" target="_blank" rel="noopener">letter to Secretary Yellen</a></li>
+          <li>Invited to brief U.S. Senate staff on data center grid impacts</li>
+          <li>Presenter at New York Climate Week and other industry and academic conferences</li>
+          <li><a href="https://www.buzzsprout.com/2147733/episodes/15116842" target="_blank" rel="noopener">Reimagined Energy Podcast</a> — on energy system modeling, long-term planning, and open-source tools</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <div class="section-dark">
+    <section id="contact">
+      <div class="section">
+        <div class="section-label">Contact</div>
+        <a href="mailto:cameron@sutubra.ca" class="contact-email">cameron@sutubra.ca</a>
+        <p class="contact-note">Available for consulting, research collaboration, and advisory work.</p>
+        <div class="contact-links">
+          <a href="https://www.linkedin.com/in/cameron-wade-963748112/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/SutubraResearch" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://scholar.google.com/citations?user=2iWqSgsAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer>&copy; 2026 Sutubra Research</footer>
+
+  <script>
+    // Nav scroll transition: transparent on hero, white with shadow after scrolling
+    (function() {
+      var nav = document.getElementById('mainNav');
+      var hero = document.querySelector('.hero');
+      var hamburger = document.getElementById('hamburger');
+      var navLinks = document.getElementById('navLinks');
+
+      function onScroll() {
+        var threshold = hero.offsetHeight - 80;
+        if (window.scrollY > threshold) {
+          nav.classList.add('scrolled');
+        } else {
+          nav.classList.remove('scrolled');
+        }
+        // Close mobile menu on scroll
+        if (navLinks.classList.contains('mobile-open')) {
+          closeMenu();
+        }
+      }
+
+      function closeMenu() {
+        navLinks.classList.remove('mobile-open');
+        hamburger.setAttribute('aria-expanded', 'false');
+      }
+
+      function toggleMenu() {
+        var isOpen = navLinks.classList.toggle('mobile-open');
+        hamburger.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      }
+
+      // Hamburger toggle
+      hamburger.addEventListener('click', function(e) {
+        e.stopPropagation();
+        toggleMenu();
+      });
+
+      // Close menu when a nav link is clicked
+      var links = navLinks.querySelectorAll('a');
+      for (var i = 0; i < links.length; i++) {
+        links[i].addEventListener('click', closeMenu);
+      }
+
+      window.addEventListener('scroll', onScroll, { passive: true });
+      onScroll();
+    })();
+  </script>
+
+</body>
+</html>

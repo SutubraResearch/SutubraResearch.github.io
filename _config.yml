@@ -1,24 +1,18 @@
 # _config.yml
 
-# required, replace with your own information -----
 title: Sutubra Research
 author: Cameron Wade
-description: Sutubra Research is a consulting firm focused on helping clients make better and more robust decisions about decarbonizing their energy systems.# >
-#  A minimalist template for designing a personal GitHub Pages website - without typing a single line of code.
+description: An energy system modelling practice at the intersection of decarbonization, reliability, and affordability.
 baseurl: "https://sutubra.ca"
 url: "https://sutubra.ca"
 
-
 plugins:
-  - jekyll-feed
   - jekyll-sitemap
-  - jekyll-seo-tag
-
-#---------------------------------------------------
 
 exclude:
   - .sass-cache/
   - .jekyll-cache/
-  - gemfiles/
   - Gemfile
   - Gemfile.lock
+  - CLAUDE.md
+  - _claude_context/

@@ -9,6 +9,12 @@ url: "https://sutubra.ca"
 plugins:
   - jekyll-sitemap
 
+defaults:
+  - scope:
+      path: "files"
+    values:
+      sitemap: false
+
 exclude:
   - .sass-cache/
   - .jekyll-cache/
